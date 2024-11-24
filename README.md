@@ -6,9 +6,8 @@
 NoteWise is a web application designed to efficiently summarize textual notes. It leverages the TinyLlama model for text summarization and incorporates Whisper for voice-to-text capabilities. The application features a React frontend, a Node.js and Express backend, and utilizes Firebase for NoSQL data storage.
 
 **Developers:**
-
-- Sriman Ujhanthachhen
-- Himavanth Karpurapu
+- [Sriman Ujhanthachhen](https://github.com/SrimanCode)
+- [Himavanth Karpurapu](https://github.com/himavanthkar)
 
 ## Features
 
