@@ -14,6 +14,7 @@ NoteWise is a web application designed to efficiently summarize textual notes. I
 
 - **Text Summarization:** Utilizes the TinyLlama model to generate concise summaries of input text.
 - **Voice Input:** Employs Whisper to convert voice notes into text for summarization.
+- **Query Summaries:** Allows users to ask questions or query information from the generated summaries.
 - **User-Friendly Interface:** Built with React and Material-UI for a responsive and intuitive user experience.
 - **Data Management:** Integrates Firebase for efficient storage and retrieval of notes.
 
@@ -36,7 +37,7 @@ NoteWise is a web application designed to efficiently summarize textual notes. I
 2. **Install Dependencies:**
    - **Backend:**
      ```bash
-     cd backend
+     cd ../backend
      npm install
      ```
    - **Frontend:**
@@ -93,7 +94,10 @@ NoteWise is a web application designed to efficiently summarize textual notes. I
 3. **Voice Input:**
    - Use the voice input feature to record audio, which will be transcribed and summarized.
 
-4. **Manage Notes:**
+4. **Query Summaries:**
+   - Ask questions or query information from the generated summaries using the built-in query interface.
+
+5. **Manage Notes:**
    - View, edit, or delete saved notes through the dashboard.
 
 ## Acknowledgments
