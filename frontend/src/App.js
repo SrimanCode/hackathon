@@ -1,15 +1,17 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { Dashboard } from "./Components/dashboard";
-function App() {
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Components/Home';
+import Dashboard from './Components/Dashboard';
+
+const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
